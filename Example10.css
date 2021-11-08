@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+root {
+    --primary : #fff;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    flex-direction: column;
+}
+
+.container {
+    background-color: var(--primary);
+    border-radius: 10px;
+    display: flex;
+    padding: 30px 50px;
+}
+
+.fas {
+    font-size: 2em;
+    margin: 0 4px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.container>.sternAktiv, .container>.sternGeklickt {
+    color: rgba(218, 179, 9);
+}
+
+#senden {
+margin-top: 20px;
+border: nnone;
+outline: none;
+cursor: pointer;
+padding: 10px 24px;
+background-color: chocolate;
+color: white;
+font-weight: bold;
+border-radius: 10px;
+font-size: 1.2em;
+}
+
+#senden:hover {
+    background-color: rgb(233, 120, 39);
+}
+
+#ergebnis {
+    margin-top: 20px;
+    font-size: 1.4em;
+    color: red;
+}
+

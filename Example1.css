@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6d2b2b;
+    color: white;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+ul>li {
+    font-size: 1.4em;
+    list-style-type: decimal;
+    margin-top: 10px;
+}

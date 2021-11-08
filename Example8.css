@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#meineId {
+    font-size: 2em;
+}
+
+#meinBtn {
+    padding: 10px 30px;
+    color: white;
+    background-color: darkorange;
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.login {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+input {
+    padding: 7px 10px;
+    margin: 7px;
+    font-size: 1.5em;
+    background-color: rgb(185, 179, 179);
+}
+
+#einloggen {
+    padding: 7px 20px;
+    font-size: 1.7em;
+    background-color: blue;
+    color: white;
+    margin: 7px;
+}
+
+#meldung {
+    width: 400px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
