@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #1980ae;
+    --secondary: #145979;
+    --accent: #a4d14d;
+    --link: var(--primary);
+    --text: #454545;
+    --textLight: #fffff;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+
+/* ============================= */
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}

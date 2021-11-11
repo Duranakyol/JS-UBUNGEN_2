@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+}
+
+#container {
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+#container>input {
+    padding: 10px 25px;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#container>button {
+    padding: 10px 40px;
+    font-size: 1.2em;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+#container>#yazi {
+    margin: 20px 20px;
+    font-size: 1.7em;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: whitesmoke;
+}

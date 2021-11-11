@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example22</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="Example22.css">
+    <script src="jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+</head>
+
+<body>
+
+    <h1>Schreiben Sie Ihre Nachricht</h1>
+
+    <textarea name="myArea" id="nachricht" maxlength="100" oninput="aktualisieren(this.value.length);"></textarea>
+    <span id="anzahl">0 / 100</span>
+
+    <div id="meinContainer">
+        <h1>{{ inhaltH1 }}</h1>
+        {{ inhaltContainer }}
+    </div>
+    <script src="Example22.js"></script>
+</body>
+
+</html>
